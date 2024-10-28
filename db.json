@@ -1,0 +1,97 @@
+{
+  "user": [
+    {
+      "id": "11e9",
+      "username": "foram",
+      "email": "forampaneliya1204@gmail.com",
+      "password": "123",
+      "cpass": "123"
+    },
+    {
+      "id": "1bb4",
+      "username": "foram11",
+      "email": "m@gmail.com",
+      "password": "123",
+      "cpass": "123"
+    },
+    {
+      "id": "4ab0",
+      "username": "mitali",
+      "email": "m1@gmail.com",
+      "password": "1234",
+      "cpass": "1234"
+    },
+    {
+      "id": "15ed",
+      "username": "kkkk",
+      "email": "kkkk@gmail.com",
+      "password": "1111",
+      "cpass": "1111"
+    },
+    {
+      "id": "0013",
+      "username": "kk",
+      "email": "k@gmail.com",
+      "password": "111",
+      "cpass": "111"
+    },
+    {
+      "id": "fa56",
+      "username": "kk",
+      "email": "k1111@gmail.com",
+      "password": "111",
+      "cpass": "111"
+    },
+    {
+      "id": "35c7",
+      "username": "2222",
+      "email": "mnjfbgv@gmail.com",
+      "password": "111",
+      "cpass": "111"
+    }
+  ],
+  "cart": [
+    {
+      "id": "4b0f",
+      "quntity": 6,
+      "productId": "19",
+      "userId": "11e9"
+    },
+    {
+      "id": "0c63",
+      "quntity": "1",
+      "productId": "1",
+      "userId": "1bb4"
+    },
+    {
+      "id": "c47a",
+      "quntity": "4",
+      "productId": "5",
+      "userId": "1bb4"
+    },
+    {
+      "id": "7439",
+      "quntity": 1,
+      "productId": "1",
+      "userId": "11e9"
+    },
+    {
+      "id": "eaf2",
+      "quntity": 2,
+      "productId": "5",
+      "userId": "11e9"
+    },
+    {
+      "id": "08f4",
+      "quntity": "1",
+      "productId": "2",
+      "userId": "11e9"
+    },
+    {
+      "id": "c1cf",
+      "quntity": "1",
+      "productId": "6",
+      "userId": "11e9"
+    }
+  ]
+}

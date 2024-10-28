@@ -1,0 +1,318 @@
+.row-custom{
+display: flex;
+flex-wrap: wrap;
+}
+.col-3-custom{
+    width: 33.33%;
+}
+.card-img img{
+    width: 200px !important;
+    height: 300px !important;
+}
+.row-custom{
+    display: flex;
+
+}
+.me-2{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid green;
+    font-size: 18px;
+}
+.sort-wrap{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.sort-wrap select{
+    border: 1px solid green;
+    /* padding: 6px; */
+    border-radius: 5px;
+    font-size: 18px;
+/* margin-top: 20px; */
+}
+.col-6{
+    width: 50%;
+    text-align: left;
+}
+.contai{
+    width: 1500px ;
+    margin-left: 120px ;
+    margin-right: 120px ;
+    margin-top: 120px;
+}
+.heading-single{
+    /* max-width: 700px; */
+    font-size: 42px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.para-single{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(110, 109, 109);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 600px;
+}
+.price-single{
+    font-size: 42px;
+    margin-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.single-rate{
+    font-size: 18px !important;
+    margin-top: 15px;
+
+}
+.wrap-single{
+    display: flex;
+    align-items: center;
+}
+.button-wrap{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+.addcart{
+    margin-right: 20px;
+
+}
+
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.button {
+  min-width: 200px;
+  min-height: 60px;
+  display: inline-flex;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #198754;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, #198754);
+  border: none;
+  border-radius: 1000px;
+  /* box-shadow: 12px 12px 24px rgba(79,209,197,.64); */
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+.button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  /* border: 6px solid #00FFCB; */
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, 
+.button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+
+
+.button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+.button:hover::after, 
+.button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+  }
+}
+.Page{
+    background-color:#198754;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.Page:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 0.5s;
+}
+.Page:focus{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 0.5s;
+}
+.Sign-up{
+  background-color: black;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-right: 8px;
+  margin-left: 10px;
+}
+.Sign-In{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px 8px;
+  font-size: 17px;
+}
+.Sign-In:hover{
+  background-color: black;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: 0.5s;
+}
+.Sign-up:hover{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px 8px;
+  font-size: 17px;
+  color: black;
+  transition: 0.5s;
+
+}
+.label-sign-up{
+
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+
+}
+.sign-up-input{
+  width: 300px;
+  padding: 5px 8px;
+  /* border: 1px solid gray; */
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 15px;
+
+}
+.table-sign-up{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* width: 500px; */
+  
+}
+.sign-Up-main{
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  /* margin-right: 8px; */
+  /* margin-left: 10px; */
+}
+.qntity{
+  margin-top: 20px;
+}
+.qntity select{
+  padding: 8px 12px;
+  border: 1px solid green;
+  font-size: 18px;
+  border-radius: 5px;
+  
+}
+.cart{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 7px;
+  position: absolute;
+}
+.cart-wrap{
+  position: relative;
+  margin-bottom: 25px;
+}
+.count{
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  left: 40px;
+}
+.cart-main-pr{
+  width: 65%;
+  /* background-color: darkgray; */
+}
+.cart-img{
+  width: 25%;
+}
+.cart-content{
+  width: 75%;
+}
+.section-cart{
+  background-color: rgb(217, 212, 212);
+}
+.main-total-cart{
+  width: 30%;
+  margin-left: 10px;
+  height: 300px;
+}
+.cart-content{
+  margin-top: 30px;
+}
